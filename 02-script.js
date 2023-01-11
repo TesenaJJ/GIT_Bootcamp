@@ -1,4 +1,5 @@
 // V tomto souboru budu tvořit konflikty - která zvířata vyhrajou??
+
 const animals = ["dog", "cat", "mouse"]; //myš porazí slova
 
 //loopování - 3 způsoby:
