@@ -1,6 +1,6 @@
 // V tomto souboru budu tvořit konflikty - která zvířata vyhrajou??
 
-const animals = ["dog", "cat", "mouse"]; //myš porazí slova
+const animals = ["dog", "cat", "Werewolf","dragon"]; //další je drak
 
 //loopování - 3 způsoby:
 for(let i = 0; i < animals.length; i++) { // i index reprezentovaný nějakou proměnnou //i++ - navyš o 1
