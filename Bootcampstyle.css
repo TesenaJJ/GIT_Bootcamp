@@ -1,0 +1,225 @@
+﻿/* Formát pro celou stránku */
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    width: 900px;
+    margin: auto;
+    background: url("images/yellow_background.png");
+}
+
+p {
+    text-align: justify;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Oddělovací čára (nebo příkaz <hr>) */
+.line {
+    width: 900px;
+    height: 3px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+
+/* Hlavička */
+#main_wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+#main_title {
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 19px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+h4 {
+    color: black;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+/* Hlavní menu */
+nav ul {
+    width: 900px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+nav ul li {
+    width: 200px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Banner */
+#banner {
+    position: relative;
+}
+#banner_image {
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+#banner button {
+    background-image: url("images/red_background.png");
+    color: white;
+    font-size: 15px;
+    border: 1px rgb(111, 1, 1);
+    border-radius: 5px;
+    padding: 6px;
+    width: 110px;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+        bottom: 12px;
+        right: 10px;
+}
+#banner p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 895px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 5px;
+    justify-content: center;
+    position: absolute;
+        bottom: -10px;
+        left: 0px;
+}
+
+
+
+/* Článek */
+article { 
+    width: 630px;
+    float: left;
+}
+article img {
+    float: left;
+    margin: 50px 10px 0px 0px;
+}
+article h2 {
+    float: left;
+    margin: 55px 0px 0px 0px;
+}
+.article {
+    width: auto;
+}
+
+/* Šipka */
+#left_arrow {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 9px;
+    float: left;
+}
+
+/* O autorovi */
+aside {
+    background-color: rgb(108, 108, 108);
+    border-radius: 10px;
+    width: 250px;
+    height: 420px;
+    float: right;
+    margin: 30px 0px 30px 20px;
+}
+aside h3 {
+    margin: 20px 10px 20px 10px;
+    font-size: 14px;
+    color: white;
+}
+aside p {
+    margin: 25px 10px 10px 10px;
+    color: white;
+}
+#author_image {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+aside img {
+    margin: 10px 0px 25px 5px;
+    width: 40px;
+}
+
+
+
+/* Zápatí */
+#top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+}
+
+footer h2 {
+    margin: 0px 30px 10px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#tweet {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+#my_pictures {
+    width: 350px;
+    height: 150px;
+    float: left;
+}
+#my_pictures img {
+    border: 1px solid black;
+}
+
+#my_friends {
+    width: 350px;
+    height: 150px;
+    float: right;
+    font-size: 13px;
+}
+#my_friends h2 {
+    margin-left: 30px;
+}
+#friends li {
+    list-style-image: url("images/external_link.png");
+    float: left;
+    width: 50%;
+}
+#friend li {
+    color: rgb(150, 8, 8);
+    list-style-image: url("images/external_link.png");
+    float: left;
+    width: 50%;
+}
+
+

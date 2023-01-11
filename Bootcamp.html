@@ -1,0 +1,159 @@
+<!-- Bootcamp fiktivní web Zozor -->
+<!-- Odkaz v novém okně: target="_blank" -->
+
+<!DOCTYPE html>
+<!-- základní jazyk stránek -->
+<html lang="en"> 
+
+<!-- tag hlavičky -->
+<head>
+    <!-- znaková sada (aby fungovala diakritika) -->
+    <meta charset="UTF-8">
+    <!-- propojení s CSS v souboru Bootcampstyle -->
+    <link rel="stylesheet" href="Bootcampstyle.css">
+    <!-- název stránek (zobrasí se např. ve vyhledavači) -->
+    <title>Zozor - travel diaries</title>
+    <!-- js změna barvy -->
+    <style>
+        #friends {
+            color: rgb(150, 8, 8);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="main_wrapper">
+        <!-- hlavička -->
+        <header>
+            <div id="main_title">
+                <!-- logo Z a titulek -->
+                <h1>Zozor</h1>
+                <img src="images/zozor_logo.png" alt="Zozor logo Z">
+                <h4>Travel diaries</h4>
+            </div>
+                <!-- hlavní menu -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="Bootcamp.html">HOME</a></li>
+                    <li><a href="Article.html">BLOG</a></li>
+                    <li>RESUME</li>
+                    <li>CONTACT</li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+            <img class="line" src="images/line.png" alt="Zozor logo Z">
+        </header>
+
+
+        <!-- banner -->
+        <div id="banner">
+                <!-- obrázek San Francisca -->
+            <img id="banner_image" src="images/sanfrancisco.jpg" href="Bootcamp.html">
+            <br>
+            <!-- button a text v banneru -->
+            <p>Reflections on my holiday in the United States...</p>
+            <a href="Article.html"><button type="button">See article <img src="images/small_arrow.png"></button></a>
+        </div>
+
+
+        <section>
+            <!-- článek -->
+            <article>
+                <img src="images/pin.png">
+                <h2>I'M A GREAT TRAVELLER</h2>
+                <div class="clearfix"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem,
+                et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi,
+                in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien
+                dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis.
+                Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc
+                posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+                <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum
+                sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat
+                ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at
+                ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut
+                scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum
+                consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae
+                nec diam.</p>
+                <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent
+                vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et
+                netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque
+                tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus
+                eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+            </article>
+            
+            <!-- šipka -->
+            <img id="left_arrow" src="images/arrow.png">
+            
+            <!-- o autorovi -->
+            <aside>
+                <h3>ABOUT THE AUTHOR</h3>
+                <img id="author_image" src="images/zozor.png" alt="author photo, he looks like a donkey with glasses">
+                <p> Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p> 
+                <p> A bit manager, is it not? This is why I've now decided to write my biography to let my readers know who I really am. </p>
+                <img src="images/facebook.png" alt="Facebook">
+                <img src="images/twitter.png" alt="Twitter">
+                <img src="images/vimeo.png" alt="Vimeo">
+                <img src="images/flickr.png" alt="Flickr">
+                <img src="images/rss.png" alt="Really Simple Syndication">
+            </aside>
+
+            <div class="clearfix"> </div>
+        </section>
+
+
+        <!-- dolní oddělovací čára s šipkou -->
+        <img class="line" src="images/line.png" alt="Zozor logo Z">
+        <a href="Bootcamp.html"><img id="top" src="images/top.png"></a>
+        
+
+        <!-- zápatí -->
+        <footer>
+            <div id="tweet">
+                <h2 id="tweet_title">MY LAST TWEET</h2>
+                <p>Hee-haw!</p>
+                <p>12/05 23:12</p>
+            </div>
+
+            <div id="my_pictures">
+                <h2>MY PICTURES</h2>
+                <img src="images/pic1.jpg" alt="picture 1">
+                <img src="images/pic2.jpg" alt="picture 2">
+                <img src="images/pic3.jpg" alt="picture 3">
+                <img src="images/pic4.jpg" alt="picture 4">
+            </div>
+
+            <div id="my_friends">
+                <h2>MY FRIENDS</h2>
+                <!-- neuspořádaný seznam (uspořádaný by byl ol) -->
+                <ul id="friends">
+                    <li >Pupi the rabbit</li>
+                    <li >Ji</li>
+                    <li >Mr Boabab</li>
+                    <li >Super cucumber</li>
+                    <li >Kaiwaii</li>
+                    <li >Prince</li>
+                    <li >Perceval.eu</li>
+                    <li >Mr Fan</li>
+                </ul>
+            </div>
+
+            <div class="clearfix"> </div>
+            
+        </footer>
+    </div>
+
+<!-- změny js defer - až po načtení celé stránky -->
+    <script defer>
+        document.getElementById("tweet_title").innerHTML = "My last post"
+        function changeColor() {
+            let friend = document.getElementById("friends");
+            friend.style.color = "#008000";
+        }
+        changeColor()
+    </script>
+
+</body>
+
+</html>

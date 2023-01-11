@@ -1,0 +1,13 @@
+GIT
+Vytvořte si na GITHUBu novou repozitory
+Naclonujte si ho k sobě pomocí Gitbash
+Ve větvi master nahrajte nějaký defaultní obsah, např. soubory RF testů nebo vytvořené stránky z vedlejšího cvičení. At tam je třeba Txt soubor, html, css, nebo robot soubory.
+vytvořte novou větev (Názvy větví volte vhodně, stejně tak commit message.), v ní proveďte nějaké změny a při mergování zpět nasimulujte merge conflict a ten vyřešte.
+Opakujte bod 5, ale místo mergování jen vytvořte pull request, poznamenejte si jeho link.
+Smažte větev z bodu 5, lokálně ale i na serveru
+Zkuste si do nové větve dostat jeden nově vytvořený commit v masteru (který v té větvi ještě není), pomocí git cherry-pick
+v rootu repozitory si vytvořte readme.md soubor a naplňte ho nějakým vlastním obsahem. Zkuste dle nápovědy všechny možnosti formátování.
+Nechceme do repozitory pustit JPG a PNG obrázky - přidejte do gitignore.
+Nastavte si u nějakého commitu jeden TAG
+(volitelně, není nutné) Zkuste .gitconfig nastavit tak, aby soubory s příponou .txt bral jako binární. Pak zkuste udělat v txt souboru změnu a podívejte se, jak jí GIT uvidí. (co pak takový merge změn v TXT souboru? :-) )
+Váš TL zjistí, kdo z kolegů bude úkol vyhodnocovat. Tomu pak umožněte přístup do repozitory pro kontrolu. Je to součástí vypracování úkolu. 
