@@ -1,5 +1,6 @@
 // V tomto souboru budu tvořit konflikty - která zvířata vyhrajou??
-const animals = ["dog", "cat", "elephant"]; //tvorba pole - hranaté závorky a zapíšu
+
+const animals = ["dog", "cat", "mouse"]; //myš porazí slova
 
 //loopování - 3 způsoby:
 for(let i = 0; i < animals.length; i++) { // i index reprezentovaný nějakou proměnnou //i++ - navyš o 1
